@@ -1,4 +1,4 @@
-package top.buukle.srs.web;
+package top.buukle.drc.web;
 
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
@@ -7,7 +7,7 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 import org.springframework.context.ApplicationContext;
 import org.springframework.session.data.redis.config.annotation.web.http.EnableRedisHttpSession;
 
-@MapperScan("top.buukle.security.dao")
+@MapperScan("top.buukle.drc.dao")
 @SpringBootApplication(scanBasePackages={"top.buukle.*"})
 @EnableFeignClients(basePackages = {"top.buukle.*"})
 @EnableRedisHttpSession
