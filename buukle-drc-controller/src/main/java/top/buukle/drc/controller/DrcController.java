@@ -15,8 +15,8 @@ import top.buukle.security.entity.Role;
 import top.buukle.security.entity.constants.MenuEnums;
 import top.buukle.security.entity.vo.MenuTreeNode;
 import top.buukle.security.plugin.util.SessionUtil;
-import top.buukle.drc.service.BaseService;
 import top.buukle.util.JsonUtil;
+import top.buukle.util.mvc.BaseService;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
