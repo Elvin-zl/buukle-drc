@@ -1,4 +1,4 @@
-package top.buukle.srs.web.exception;
+package top.buukle.drc.web.exception;
 
 import top.buukle.common.call.CommonResponse;
 import top.buukle.common.exception.CommonException;

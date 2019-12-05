@@ -1,4 +1,4 @@
-package top.buukle.srs.web.configure;
+package top.buukle.drc.web.configure;
 
 
 import feign.Request;
